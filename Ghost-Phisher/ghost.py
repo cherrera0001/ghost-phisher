@@ -4,7 +4,7 @@ import os                   # For operating system related call e.g [os.listdir(
 import sys
 
 
-from PyQt4 import QtCore, QtGui
+from PyQt5 import QtCore, QtGui
 
 # Set Working directory'
 if 'core' not in os.listdir(os.getcwd()):
